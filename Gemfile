@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "2.2.4"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
@@ -51,3 +51,5 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem 'spree_multi_vendor', github: 'spark-solutions/spree_multi_vendor'
+
+gem 'rails_12factor', group: :production
